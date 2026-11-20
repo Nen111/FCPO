@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs and caches
+*.log
+logs/
+__pycache__/
+.cache/
+
+# NOTE: "MPOB data.xlsx" is intentionally committed - it is the source workbook
+# for data/mpob_real.csv. Remove this line if you would rather keep it local.
